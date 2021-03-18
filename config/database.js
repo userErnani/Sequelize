@@ -1,15 +1,7 @@
-const sequelize = {
-
-    dialect: 'postgres',
-    host: 'localhost',
-    username: 'postgres',
-    database: 'novobanco',
-    password: '332000',
-    define: {
-    timestamps: true,
-    underscored: true,
-    }
+module.exports = {
+  username: 'postgres',
+  password: '332000',
+  database: 'materiaprima',
+  host: '127.0.0.1',
+  dialect: 'postgres',
 }
-
-
-module.exports = sequelize;
